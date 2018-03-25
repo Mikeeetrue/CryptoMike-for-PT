@@ -5,12 +5,12 @@ This strategy allows you to trade on pumps.
 It means you have all pairs in your portfolio, you DCA it until you catch a pump.
 After that you buy the pair again and DCA it again before the next pump.
 This strategy is still in beta. It was tested on different markets, but it seems the most effective is ETH.
-For BTC you only need to change ALL_max_cost = 0.012 to 0.0012 in PAIRS 
-AND
+For BTC you only need to change ALL_max_cost = 0.012 to 0.0012 in PAIRS   
+AND  
 min_buy_balance = 0.01  max_cost = 0.035 in DCA
 Join my Telegram group: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg 
 
-For start using this strategy you need to have at least 1.4 ETH
+For start using this strategy you need to have at least 1.4 ETH  
 If you have 3 ETH it's a little better   
 For 6 ETH you can earn more;  
 12 ETH is something this author uses and gets ~1-2.8% a day;  
