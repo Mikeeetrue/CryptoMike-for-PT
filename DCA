@@ -1,0 +1,31 @@
+#DCA FROM CRYPTOMIKE :) Telegram: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg 
+enabled = true
+#I always keep some coins to buy from pairs
+min_buy_balance = 0.1
+#For max cost we use formula: balance/114*2
+max_cost = 0.35
+max_buy_times = 7
+#*************************************************************#
+buy_strategy = ANDERSON
+buy_style = DOUBLEDOWN
+buy_trigger_1 = -2
+buy_trigger_2 = -4
+buy_trigger_3 = -6
+buy_trigger_4 = -8
+buy_trigger_5 = -10
+buy_trigger_6 = -12
+buy_trigger_7 = -14
+#Change trail to 0.5 or even 0.1 if you have lots of available balance
+trailing_buy = 1
+pending_order_wait_time = 0
+ignore_sell_only_mode = true
+#*************************************************************#
+sell_strategy = GAIN
+sell_value = 8
+trailing_profit = 0.2
+#*************************************************************#
+#You can donate if this strategy works well for you:
+#BNB: 0xa5c1b8094b242c82026afc416a3defadf253dc38  
+#ETH: 0xd725f6c186e49dc7edafdd0b6b8910c10c90f7ec  
+#BTC: 1AhoD7zEsrRmcCv3aEi4SZLtMVWBswzCTE 
+#USDT: 1MVvPoTKgSdQ4MWxSn3fqKoBcRigCYGj2V  
