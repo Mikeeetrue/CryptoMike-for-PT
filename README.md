@@ -4,7 +4,7 @@ CryptoMike Profit Traler Strategy
 This strategy allows you to trade on pumps.
 It means you have all pairs in your portfolio, you DCA it until you catch a pump.
 After that you buy the pair again and DCA it again before the next pump.
-This strategy is still in beta. It was tested on different markets, but it seems the most effective is ETH.
+This strategy is still in beta. It was tested on different markets, but it seems the most effective is ETH. 
 For BTC you only need to change ALL_max_cost = 0.012 to 0.0012 in PAIRS   
 AND  
 min_buy_balance = 0.01  max_cost = 0.035 in DCA
