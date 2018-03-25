@@ -1,0 +1,32 @@
+#PAIRS FROM CRYPTOMIKE :) Telegram: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg 
+MARKET = ETH
+
+ALL_trading_enabled = true
+ALL_enabled_pairs = ALL
+
+#All max could be 0.01, but some coins require 0.012 like BQX from my experience
+ALL_max_cost = 0.012
+ALL_min_buy_balance = 0
+ALL_min_buy_balance_percentage = 0
+ALL_min_buy_volume = 10
+ALL_min_buy_price = 0
+ALL_max_trading_pairs = 0
+ALL_max_buy_spread = 3
+ALL_rebuy_timeout = 0
+#*************************************************************#
+ALL_buy_strategy = EMAGAIN
+ALL_buy_value = 1
+ALL_trailing_buy = 0.2
+#*************************************************************#
+ALL_sell_strategy = GAIN
+ALL_sell_value = 8
+ALL_trailing_profit = 0.2
+
+ALL_DCA_enabled = -1
+ALL_sell_only_mode = false
+ALL_panic_sell_enabled = false
+#You can donate if this strategy works well for you:
+#BNB: 0xa5c1b8094b242c82026afc416a3defadf253dc38  
+#ETH: 0xd725f6c186e49dc7edafdd0b6b8910c10c90f7ec  
+#BTC: 1AhoD7zEsrRmcCv3aEi4SZLtMVWBswzCTE 
+#USDT: 1MVvPoTKgSdQ4MWxSn3fqKoBcRigCYGj2V  
