@@ -12,10 +12,10 @@ Join my Telegram group: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg
 
 For start using this strategy you need to have at least 1.4 ETH
 If you have 3 ETH it's a little better
-For 6 ETH you can earn more
-12 ETH is something this author uses and gets ~1-2.8% a day
-24 ETH gives you more opportunities for DCA
-48 ETH makes you a pro-user of this strategy
+For 6 ETH you can earn more;
+12 ETH is something this author uses and gets ~1-2.8% a day;
+24 ETH gives you more opportunities for DCA;
+48 ETH makes you a pro-user of this strategy;
 96 ETH makes you a whale :)
 
 Don't forget to donate and sponsor future researches and improvements. 
