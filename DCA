@@ -10,19 +10,19 @@ buy_strategy = ANDERSON
 buy_style = DOUBLEDOWN
 buy_trigger_1 = -2
 buy_trigger_2 = -4
-buy_trigger_3 = -6
-buy_trigger_4 = -8
-buy_trigger_5 = -10
-buy_trigger_6 = -12
-buy_trigger_7 = -14
+buy_trigger_3 = -7
+buy_trigger_4 = -11
+buy_trigger_5 = -16
+buy_trigger_6 = -22
+buy_trigger_7 = -30
 #Change trail to 0.5 or even 0.1 if you have lots of available balance
 trailing_buy = 1
 pending_order_wait_time = 0
 ignore_sell_only_mode = true
 #*************************************************************#
 sell_strategy = GAIN
-sell_value = 8
-trailing_profit = 0.2
+sell_value = 10.5
+trailing_profit = 0.7
 #*************************************************************#
 #You can donate if this strategy works well for you:
 #BNB: 0xa5c1b8094b242c82026afc416a3defadf253dc38  
