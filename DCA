@@ -9,6 +9,7 @@ max_buy_times = 7
 buy_strategy = ANDERSON
 buy_style = DOUBLEDOWN
 buy_trigger_1 = -2
+# You can make the first trigger -1 if you have a lot of free deposit (>2 ETH after buying all pairs)
 buy_trigger_2 = -4
 buy_trigger_3 = -7
 buy_trigger_4 = -11
@@ -23,6 +24,10 @@ ignore_sell_only_mode = true
 sell_strategy = GAIN
 sell_value = 8
 trailing_profit = 0.7
+# sell value 8 is for the normal market condition 
+# increase sell value to 10 if it's super bullish market with 0.5 trailing
+# decrease sell value to 3 if it's bearish market with 0.1-0.3 trailing
+# make sell value 1 and trailing 0.15 for market going dip for more than 1 day
 #*************************************************************#
 #You can donate if this strategy works well for you:
 #BNB: 0xa5c1b8094b242c82026afc416a3defadf253dc38  
