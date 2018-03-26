@@ -20,6 +20,10 @@ ALL_trailing_buy = 1
 #*************************************************************#
 ALL_sell_strategy = GAIN
 ALL_sell_value = 8
+# sell value 8 is for the normal market condition 
+# increase sell value to 10 if it's super bullish market with 0.5 trailing
+# decrease sell value to 3 if it's bearish market with 0.1-0.3 trailing
+# make sell value 1 and trailing 0.15 for market going dip for more than 1 day
 ALL_trailing_profit = 0.2
 
 ALL_DCA_enabled = -1
