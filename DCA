@@ -21,7 +21,7 @@ pending_order_wait_time = 0
 ignore_sell_only_mode = true
 #*************************************************************#
 sell_strategy = GAIN
-sell_value = 10.5
+sell_value = 8
 trailing_profit = 0.7
 #*************************************************************#
 #You can donate if this strategy works well for you:
