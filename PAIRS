@@ -16,7 +16,7 @@ ALL_rebuy_timeout = 0
 #*************************************************************#
 ALL_buy_strategy = EMAGAIN
 ALL_buy_value = 1
-ALL_trailing_buy = 0.2
+ALL_trailing_buy = 1
 #*************************************************************#
 ALL_sell_strategy = GAIN
 ALL_sell_value = 8
