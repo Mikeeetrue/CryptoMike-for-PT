@@ -7,7 +7,7 @@ After that you buy the pair again and DCA it again before the next pump.
 This strategy is still in beta. It was tested on different markets, but it seems the most effective is ETH. 
 For BTC you only need to change ALL_max_cost = 0.012 to 0.0012 in PAIRS   
 AND  
-min_buy_balance = 0.01  max_cost = 0.035 in DCA
+min_buy_balance = 0.01  max_cost = 0.035 in DCA (For max cost we use formula: balance/118*2)
 Join my Telegram group: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg 
 
 For start using this strategy you need to have at least 1.4 ETH  
