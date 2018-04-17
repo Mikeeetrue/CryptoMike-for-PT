@@ -1,36 +1,17 @@
-#DCA FROM CRYPTOMIKE :) Telegram: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg 
 enabled = true
-#I always keep some coins to buy from pairs
-min_buy_balance = 0.1
-#For max cost we use formula: balance/114*2
-max_cost = 0.35
-max_buy_times = 7
-#*************************************************************#
-buy_strategy = ANDERSON
-buy_style = DOUBLEDOWN
-buy_trigger_1 = -2
-# You can make the first trigger -1 if you have a lot of free deposit (>2 ETH after buying all pairs)
-buy_trigger_2 = -4
-buy_trigger_3 = -7
-buy_trigger_4 = -11
-buy_trigger_5 = -16
-buy_trigger_6 = -22
-buy_trigger_7 = -30
-#Change trail to 0.5 or even 0.1 if you have lots of available balance
+max_buy_times = 3
+#--------------------------------------------------------------#
+buy_strategy = EMAGAIN
+buy_value = 10
+buy_trigger = -10
 trailing_buy = 1
-pending_order_wait_time = 0
-ignore_sell_only_mode = true
-#*************************************************************#
+#--------------------------------------------------------------#
+ignore_sell_only_mode = false
 sell_strategy = GAIN
-sell_value = 8
-trailing_profit = 0.7
-# sell value 8 is for the normal market condition 
-# increase sell value to 10 if it's super bullish market with 0.5 trailing
-# decrease sell value to 3 if it's bearish market with 0.1-0.3 trailing
-# make sell value 1 and trailing 0.15 for market going dip for more than 1 day
-#*************************************************************#
-#You can donate if this strategy works well for you:
-#BNB: 0xa5c1b8094b242c82026afc416a3defadf253dc38  
-#ETH: 0xd725f6c186e49dc7edafdd0b6b8910c10c90f7ec  
-#BTC: 1AhoD7zEsrRmcCv3aEi4SZLtMVWBswzCTE 
-#USDT: 1MVvPoTKgSdQ4MWxSn3fqKoBcRigCYGj2V  
+sell_value = 5
+trailing_profit = 0.5
+#--------------------------------------------------------------#
+max_buy_spread = 1
+stop_loss_trigger = 15
+stop_loss_timeout = 10080
+rebuy_timeout = 1440
