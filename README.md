@@ -8,7 +8,7 @@ This strategy is still in beta. It was tested on different markets, but it seems
 
 Join my Telegram group: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg 
 
-This strategy works perfect with any amount of deposit. I would expect the biggest gain if you have more than 0.5 BTC, but it will also work with 0.01 BTC depo.
+This strategy works perfect with any amount of deposit. I would expect the biggest gain if you have more than 0.5 BTC, but it will also work with 0.1 BTC depo.
 
 The average profit is in between 0.5-2% daily with ~1.3% as the median.
 
