@@ -12,7 +12,7 @@ Join my Telegram group: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg
 
 This strategy works perfect with any amount of deposit. I would expect the biggest gain if you have more than 0.5 BTC, but it will also work with 0.1 BTC depo.
 
-The average profit is in between 0.5-2% daily with ~1.3% as the median.
+The average profit is in between 1-3% daily with ~2% as the median.
 
 Don't forget to donate and sponsor future researches and improvements. 
 I already lost 1.5 BTC looking for this strategy, so your support will help me to recover faster.
