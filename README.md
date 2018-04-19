@@ -1,6 +1,8 @@
 # CryptoMike-for-PT
 CryptoMike Profit Traler Strategy
 
+Be very careful, read settings first and think, because they have stop losses!!!
+
 This strategy allows you to trade on pumps as well as use sales data to bet on the best coins and be careful with less sucessfull ones.
 It means you have all pairs in your portfolio, you DCA it if needed until you catch a pump or just a solid growth.
 After that you buy the pair again and DCA it again before the next pump or the next solid growth.
