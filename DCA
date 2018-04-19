@@ -1,5 +1,6 @@
 enabled = true
 max_buy_times = 3
+max_cost = 0.01
 #--------------------------------------------------------------#
 buy_strategy = EMAGAIN
 buy_value = 10
@@ -14,4 +15,4 @@ trailing_profit = 0.5
 max_buy_spread = 1
 stop_loss_trigger = 15
 stop_loss_timeout = 10080
-rebuy_timeout = 1440
+rebuy_timeout = 2880
