@@ -21,4 +21,4 @@ ETH: 0xd725f6c186e49dc7edafdd0b6b8910c10c90f7ec
 BTC: 1AhoD7zEsrRmcCv3aEi4SZLtMVWBswzCTE  
 
 
-Use this strategy on your own risk. No guarantees at all :)
+Use this strategy at your own risk. No guarantees at all :)
