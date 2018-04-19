@@ -1,5 +1,5 @@
 # CryptoMike-for-PT
-CryptoMike Profit Traler Strategy
+CryptoMike Profit Trailer Strategy
 
 Be very careful, read settings first and think, because they have stop losses!!!
 
