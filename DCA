@@ -1,6 +1,6 @@
 enabled = true
 max_buy_times = 3
-max_cost = 0.01
+max_cost = 0
 #--------------------------------------------------------------#
 buy_strategy = EMAGAIN
 buy_value = 10
