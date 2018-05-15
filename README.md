@@ -18,9 +18,7 @@ Support this project:
 ETH: 0xd725f6c186e49dc7edafdd0b6b8910c10c90f7ec  
 BTC: 1AhoD7zEsrRmcCv3aEi4SZLtMVWBswzCTE  
 
-Test bot with these settings: http://test.ptbots.ru:8082
-Pass: bablo
-PT Tracker of the test bot: http://144.202.113.163:8086
-Pass: 1234567890
+PT Tracker of the test bot with these settings: http://144.202.113.163:8086
+Pass: Mike
 
 Use this strategy at your own risk. No guarantees at all :)
