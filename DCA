@@ -1,18 +1,82 @@
-enabled = true
-max_buy_times = 3
-max_cost = 0
-#--------------------------------------------------------------#
-buy_strategy = EMAGAIN
-buy_value = 10
-buy_trigger = -10
-trailing_buy = 1
-#--------------------------------------------------------------#
-ignore_sell_only_mode = false
-sell_strategy = GAIN
-sell_value = 5
-trailing_profit = 0.5
-#--------------------------------------------------------------#
-max_buy_spread = 1
-stop_loss_trigger = 15
-stop_loss_timeout = 10080
-rebuy_timeout = 2880
+DEFAULT_DCA_max_buy_times = 0
+DEFAULT_DCA_buy_percentage = 25
+DEFAULT_DCA_buy_min_price_increase = 0
+DEFAULT_DCA_buy_max_price_increase = 0
+DEFAULT_DCA_min_buy_volume = 0
+DEFAULT_DCA_min_orderbook_volume_percentage = 100
+DEFAULT_DCA_max_buy_spread = 3
+DEFAULT_DCA_rebuy_timeout = 10
+DEFAULT_DCA_pending_order_wait_time = 0
+DEFAULT_DCA_ignore_sell_only_mode = false
+DEFAULT_DCA_take_profit_wait_time = 1440
+DEFAULT_DCA_take_profit_percentage = 3
+
+#----STANDARD SELL MARKET SETTINGS-----
+DEFAULT_DCA_A_sell_strategy = HIGHBB
+DEFAULT_DCA_A_sell_value = 35
+
+DEFAULT_DCA_B_sell_strategy = GAIN
+DEFAULT_DCA_B_sell_value = 1.99
+
+DEFAULT_DCA_C_sell_strategy = RSI
+DEFAULT_DCA_C_sell_value = 50
+
+#----STANDARD SELL MARKET SETTINGS-----
+
+#-----BULL SELL MARKET SETTINGS-----
+
+#DEFAULT_DCA_D_sell_strategy = GAIN
+#DEFAULT_DCA_D_sell_value = 0.1
+
+#DEFAULT_DCA_E_sell_strategy = RSI
+#DEFAULT_DCA_E_sell_value = 50
+
+#-----BULL SELL MARKET SETTINGS-----
+
+#----STANDARD BUY MARKET SETTINGS--------------------------
+DEFAULT_DCA_buy_trigger = -5
+DEFAULT_DCA_max_cost = 0.01
+
+DEFAULT_DCA_A_buy_strategy = EMAGAIN
+DEFAULT_DCA_A_buy_value = -0.1
+DEFAULT_DCA_A_buy_value_limit = -3
+
+DEFAULT_DCA_B_buy_strategy = LOWBB
+DEFAULT_DCA_B_buy_value = 35
+DEFAULT_DCA_B_buy_value_limit = -30
+
+DEFAULT_DCA_C_buy_strategy = MACD
+DEFAULT_DCA_C_buy_value = -0.00000001
+DEFAULT_DCA_C_buy_value_limit = -0.01
+
+DEFAULT_DCA_D_buy_strategy = EMASPREAD
+DEFAULT_DCA_D_buy_value = -0.01
+DEFAULT_DCA_D_buy_value_limit = -0.25
+
+DEFAULT_DCA_E_buy_strategy = RSI
+DEFAULT_DCA_E_buy_value = 50
+DEFAULT_DCA_E_buy_value_limit = 0
+#----STANDARD BUY MARKET SETTINGS--------------------------
+
+#----BULL BUY MARKET SETTINGS--------------------------
+#DEFAULT_DCA_buy_trigger = -10
+#DEFAULT_DCA_max_cost = 0.02
+
+#DEFAULT_DCA_A_buy_strategy = LOWBB
+#DEFAULT_DCA_A_buy_value = 10
+#DEFAULT_DCA_A_buy_value_limit = -30
+
+#DEFAULT_DCA_B_buy_strategy = RSI
+#DEFAULT_DCA_B_buy_value = 30
+#DEFAULT_DCA_B_buy_value_limit = 0
+#----BULL BUY MARKET SETTINGS--------------------------
+
+DEFAULT_DCA_trailing_buy = 0.5
+DEFAULT_DCA_trailing_profit = 0.2
+
+
+DCA_orderbook_profit_calculation = true
+DEFAULT_DCA_max_profit = 100
+
+DEFAULT_DCA_stop_loss_trigger = 0
+DEFAULT_DCA_stop_loss_timeout = 0
