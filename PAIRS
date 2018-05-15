@@ -1,142 +1,78 @@
-MARKET = BTC
-ALL_trading_enabled = true
-ALL_enabled_pairs = ALL
-ALL_max_cost = 0
-ALL_max_cost_percentage = 0.12
-ALL_max_buy_spread = 1
-#*************************************************************#
-ALL_buy_strategy = EMAGAIN
-ALL_buy_value = 1
-BNBBTC_buy_value = 50
-BNBBTC_trailing_buy = 0.1
-ALL_trailing_buy = 1
-#*************************************************************#
-ALL_sell_strategy = GAIN
-ALL_sell_value = 5
-BNBBTC_sell_value = 10
-ALL_trailing_profit = 0.5
-#*************************************************************#
-ALL_DCA_enabled = -10
-ALL_sell_only_mode = false
-#*************************************************************#
-#Mike's black list:
-#MCOBTC_sell_only_mode = true
-#NANOBTC_DCA_enabled = false
-#NCASHBTC_DCA_enabled = false
-#GRSBTC_DCA_enabled = false
-#BNBBTC_DCA_enabled = false
-#*************************************************************#
-ALL_rebuy_timeout = 0
-BNBBTC_rebuy_timeout = 0
+DEFAULT_initial_cost = 0.005
+DEFAULT_initial_cost_percentage = 0
 
-MCOBTC_max_cost_percentage = 3
-AMBBTC_max_cost_percentage = 3
-ASTBTC_max_cost_percentage = 3
-OMGBTC_max_cost_percentage = 2.5
-BRDBTC_max_cost_percentage = 2.5
-SUBBTC_max_cost_percentage = 2.5
-WABIBTC_max_cost_percentage = 2.5
-XEMBTC_max_cost_percentage = 2.5
-BATBTC_max_cost_percentage = 2.5
-MDABTC_max_cost_percentage = 2.5
-SNTBTC_max_cost_percentage = 2
-LRCBTC_max_cost_percentage = 2
-TRIGBTC_max_cost_percentage = 2
-DLTBTC_max_cost_percentage = 2
-XLMBTC_max_cost_percentage = 2
-WPRBTC_max_cost_percentage = 1.5
-SYSBTC_max_cost_percentage = 1.5
-RLCBTC_max_cost_percentage = 1.5
-ENGBTC_max_cost_percentage = 1.5
-CMTBTC_max_cost_percentage = 1.5
-FUNBTC_max_cost_percentage = 1.5
-CNDBTC_max_cost_percentage = 1.5
-GTOBTC_max_cost_percentage = 1.5
-SALTBTC_max_cost_percentage = 1.5
-IOTABTC_max_cost_percentage = 1.5
-TNTBTC_max_cost_percentage = 1.5
-LENDBTC_max_cost_percentage = 1.5
-LUNBTC_max_cost_percentage = 1.5
-ZILBTC_max_cost_percentage = 1.5
-STEEMBTC_max_cost_percentage = 0.8
-BQXBTC_max_cost_percentage = 0.8
-DNTBTC_max_cost_percentage = 0.8
-ARKBTC_max_cost_percentage = 0.8
-WANBTC_max_cost_percentage = 0.8
-PPTBTC_max_cost_percentage = 0.8
-STORJBTC_max_cost_percentage = 0.8
-QSPBTC_max_cost_percentage = 0.8
-XRPBTC_max_cost_percentage = 0.8
-APPCBTC_max_cost_percentage = 0.8
-AIONBTC_max_cost_percentage = 0.8
-ICXBTC_max_cost_percentage = 0.8
-ZRXBTC_max_cost_percentage = 0.8
-CHATBTC_max_cost_percentage = 0.8
-MTHBTC_max_cost_percentage = 0.8
-ARNBTC_max_cost_percentage = 0.6
-CDTBTC_max_cost_percentage = 0.6
-BLZBTC_max_cost_percentage = 0.6
-POEBTC_max_cost_percentage = 0.6
-MODBTC_max_cost_percentage = 0.6
-POWRBTC_max_cost_percentage = 0.6
-TNBBTC_max_cost_percentage = 0.6
-KMDBTC_max_cost_percentage = 0.6
-BTSBTC_max_cost_percentage = 0.6
-ELFBTC_max_cost_percentage = 0.6
-ADXBTC_max_cost_percentage = 0.6
-QTUMBTC_max_cost_percentage = 0.6
-STORMBTC_max_cost_percentage = 0.6
-RCNBTC_max_cost_percentage = 0.6
-BCPTBTC_max_cost_percentage = 0.6
-RDNBTC_max_cost_percentage = 0.6
-GRSBTC_max_cost_percentage = 0.6
-BNTBTC_max_cost_percentage = 0.6
-VIBEBTC_max_cost_percentage = 0.6
-FUELBTC_max_cost_percentage = 0.6
-NULSBTC_max_cost_percentage = 0.6
-SNMBTC_max_cost_percentage = 0.6
-OSTBTC_max_cost_percentage = 0.6
-ADABTC_max_cost_percentage = 0.6
-XVGBTC_max_cost_percentage = 0.6
-NAVBTC_max_cost_percentage = 0.6
-BCCBTC_max_cost_percentage = 0.6
-INSBTC_max_cost_percentage = 0.4
-SNGLSBTC_max_cost_percentage = 0.4
-QLCBTC_max_cost_percentage = 0.4
-STRATBTC_max_cost_percentage = 0.4
-WINGSBTC_max_cost_percentage = 0.4
-KNCBTC_max_cost_percentage = 0.4
-EVXBTC_max_cost_percentage = 0.4
-DASHBTC_max_cost_percentage = 0.4
-MANABTC_max_cost_percentage = 0.4
-GXSBTC_max_cost_percentage = 0.4
-WAVESBTC_max_cost_percentage = 0.4
-ICNBTC_max_cost_percentage = 0.4
-EOSBTC_max_cost_percentage = 0.4
-REQBTC_max_cost_percentage = 0.4
-GASBTC_max_cost_percentage = 0.4
-VENBTC_max_cost_percentage = 0.4
-XZCBTC_max_cost_percentage = 0.4
-VIBBTC_max_cost_percentage = 0.4
-OAXBTC_max_cost_percentage = 0.4
-NEBLBTC_max_cost_percentage = 0.4
-NCASHBTC_max_cost_percentage = 0.4
-YOYOBTC_max_cost_percentage = 0.2
-XMRBTC_max_cost_percentage = 0.2
-BCDBTC_max_cost_percentage = 0.2
-ETHBTC_max_cost_percentage = 0.2
-LSKBTC_max_cost_percentage = 0.2
-IOSTBTC_max_cost_percentage = 0.2
-RPXBTC_max_cost_percentage = 0.2
-EDOBTC_max_cost_percentage = 0.2
-BTGBTC_max_cost_percentage = 0.2
-GVTBTC_max_cost_percentage = 0.2
-NEOBTC_max_cost_percentage = 0.2
-CLOAKBTC_max_cost_percentage = 0.2
-LTCBTC_max_cost_percentage = 0.2
-HSRBTC_max_cost_percentage = 0.2
-ZECBTC_max_cost_percentage = 0.2
-LINKBTC_max_cost_percentage = 0.2
-TRXBTC_max_cost_percentage = 0.2
-WTCBTC_max_cost_percentage = 0.2
-AEBTC_max_cost_percentage = 0.2
+DEFAULT_trading_enabled = true
+
+market = BTC
+
+BNB_initial_cost = 0.0013
+BNB_A_buy_strategy = RSI
+BNB_A_buy_value = 100
+BNB_A_buy_value_limit = 0
+BNB_trailing_buy = 0
+BNB_B_buy_strategy = DISABLED
+BNB_C_buy_strategy = DISABLED
+BNB_D_buy_strategy = DISABLED
+BNB_A_sell_strategy = GAIN
+BNB_A_sell_value = 100
+BNB_DCA_enabled = false
+
+start_balance = 1
+keep_balance = 0.0
+keep_balance_percentage = 0
+BTC_dust = 0.00105
+enabled_pairs = ALL
+hidden_pairs = ALL
+max_trading_pairs = 0
+DEFAULT_min_buy_volume = 0
+pair_min_listed_days = 3
+DEFAULT_min_buy_price = 0
+
+DEFAULT_buy_min_change_percentage = -10
+DEFAULT_buy_max_change_percentage = 30
+DEFAULT_max_buy_spread = 3
+
+orderbook_profit_calculation = true
+DEFAULT_DCA_enabled = -5
+
+
+DEFAULT_A_buy_strategy = RSI
+DEFAULT_A_buy_value = 50
+DEFAULT_A_buy_value_limit = 0
+
+DEFAULT_trailing_buy = 0.1
+
+DEFAULT_rebuy_timeout = 5
+DEFAULT_min_orderbook_volume_percentage = 101
+
+# ---------------------------------------------------------------
+#                       Sell Strategy Settings
+# ---------------------------------------------------------------
+#
+DEFAULT_A_sell_strategy = GAIN
+DEFAULT_A_sell_value = 1.99
+DEFAULT_trailing_profit = 0.2
+
+DEFAULT_B_sell_strategy = RSI
+DEFAULT_B_sell_value = 50
+
+DEFAULT_C_sell_strategy = HIGHBB
+DEFAULT_C_sell_value = 30
+
+DEFAULT_max_profit = 100
+DEFAULT_take_profit_wait_time = 60
+DEFAULT_take_profit_percentage = 5
+
+DEFAULT_stop_loss_trigger = 0
+DEFAULT_stop_loss_timeout = 120
+DEFAULT_pending_order_wait_time = 0
+DEFAULT_combined_cancel_pending_trigger = 0
+
+price_trigger_market = BTC
+price_rise_trigger = 7
+price_rise_recover_trigger = 6
+price_drop_trigger = 10
+price_drop_recover_trigger = 3
+
+#consecutive_buy_trigger = 10
+#consecutive_sell_trigger = 1
