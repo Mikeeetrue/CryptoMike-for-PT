@@ -14,10 +14,6 @@ This strategy works perfect with 1 BTC.
 
 The average profit is in between 0.5-1% ON EVERY MARKET (even on bleeding)
 
-Support this project:
-ETH: 0xd725f6c186e49dc7edafdd0b6b8910c10c90f7ec  
-BTC: 1AhoD7zEsrRmcCv3aEi4SZLtMVWBswzCTE  
-
 PT Tracker of the test bot with these settings: http://144.202.113.163:8086
 Pass: Mike
 
