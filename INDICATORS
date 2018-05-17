@@ -1,6 +1,2 @@
-BB_candle_period = 3600
-BB_std = 2
-BB_length = 20
-
 RSI_candle_period = 300
 RSI_length = 2
