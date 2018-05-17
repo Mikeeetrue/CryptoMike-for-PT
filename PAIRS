@@ -1,78 +1,23 @@
-DEFAULT_initial_cost = 0.005
-DEFAULT_initial_cost_percentage = 0
-
-DEFAULT_trading_enabled = true
-
-market = BTC
-
-BNB_initial_cost = 0.0013
-BNB_A_buy_strategy = RSI
-BNB_A_buy_value = 100
-BNB_A_buy_value_limit = 0
-BNB_trailing_buy = 0
-BNB_B_buy_strategy = DISABLED
-BNB_C_buy_strategy = DISABLED
-BNB_D_buy_strategy = DISABLED
-BNB_A_sell_strategy = GAIN
-BNB_A_sell_value = 100
-BNB_DCA_enabled = false
-
-start_balance = 1
-keep_balance = 0.0
-keep_balance_percentage = 0
-BTC_dust = 0.00105
-enabled_pairs = ALL
-hidden_pairs = ALL
-max_trading_pairs = 0
-DEFAULT_min_buy_volume = 0
-pair_min_listed_days = 3
-DEFAULT_min_buy_price = 0
-
-DEFAULT_buy_min_change_percentage = -10
-DEFAULT_buy_max_change_percentage = 30
-DEFAULT_max_buy_spread = 3
-
-orderbook_profit_calculation = true
-DEFAULT_DCA_enabled = -5
-
+DEFAULT_initial_cost = 0.0013
 
 DEFAULT_A_buy_strategy = RSI
-DEFAULT_A_buy_value = 50
-DEFAULT_A_buy_value_limit = 0
-
+DEFAULT_A_buy_value = 5
 DEFAULT_trailing_buy = 0.1
 
-DEFAULT_rebuy_timeout = 5
-DEFAULT_min_orderbook_volume_percentage = 101
-
-# ---------------------------------------------------------------
-#                       Sell Strategy Settings
-# ---------------------------------------------------------------
-#
 DEFAULT_A_sell_strategy = GAIN
-DEFAULT_A_sell_value = 1.99
-DEFAULT_trailing_profit = 0.2
-
+DEFAULT_A_sell_value = 1
 DEFAULT_B_sell_strategy = RSI
-DEFAULT_B_sell_value = 50
-
+DEFAULT_B_sell_value = 70
 DEFAULT_C_sell_strategy = HIGHBB
 DEFAULT_C_sell_value = 30
+DEFAULT_trailing_profit = 0.25
 
-DEFAULT_max_profit = 100
-DEFAULT_take_profit_wait_time = 60
-DEFAULT_take_profit_percentage = 5
-
-DEFAULT_stop_loss_trigger = 0
-DEFAULT_stop_loss_timeout = 120
-DEFAULT_pending_order_wait_time = 0
-DEFAULT_combined_cancel_pending_trigger = 0
-
-price_trigger_market = BTC
-price_rise_trigger = 7
-price_rise_recover_trigger = 6
-price_drop_trigger = 10
-price_drop_recover_trigger = 3
-
-#consecutive_buy_trigger = 10
-#consecutive_sell_trigger = 1
+start_balance = 1
+BTC_dust = 0.00105
+enabled_pairs = ALL
+pair_min_listed_days = 5
+DEFAULT_buy_min_change_percentage = -10
+DEFAULT_buy_max_change_percentage = 30
+DEFAULT_DCA_enabled = -10
+DEFAULT_trading_enabled = true
+market = BTC
