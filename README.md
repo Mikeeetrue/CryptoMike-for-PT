@@ -1,5 +1,5 @@
 # CryptoMike-for-PT
-CryptoMike Profit Trailer Strategy
+CryptoMike Profit Trailer Strategy aka HUMMER strategy
 
 Test these settings with your depo in Test Mode first!
 
