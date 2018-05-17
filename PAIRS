@@ -5,7 +5,7 @@ DEFAULT_A_buy_value = 5
 DEFAULT_trailing_buy = 0.1
 
 DEFAULT_A_sell_strategy = GAIN
-DEFAULT_A_sell_value = 5
+DEFAULT_A_sell_value = 1
 DEFAULT_trailing_profit = 0.25
 
 start_balance = 1
