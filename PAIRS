@@ -1,15 +1,11 @@
-DEFAULT_initial_cost = 0.0013
+DEFAULT_initial_cost = 0.01
 
 DEFAULT_A_buy_strategy = RSI
 DEFAULT_A_buy_value = 5
 DEFAULT_trailing_buy = 0.1
 
 DEFAULT_A_sell_strategy = GAIN
-DEFAULT_A_sell_value = 1
-DEFAULT_B_sell_strategy = RSI
-DEFAULT_B_sell_value = 70
-DEFAULT_C_sell_strategy = HIGHBB
-DEFAULT_C_sell_value = 30
+DEFAULT_A_sell_value = 5
 DEFAULT_trailing_profit = 0.25
 
 start_balance = 1
