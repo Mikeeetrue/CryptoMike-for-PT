@@ -33,7 +33,8 @@ In this strategy you only need to set up 4 paramaters:
 
 The average profit is in between 0.5-1% ON EVERY MARKET (even on bleeding)
 
-PT Tracker of the test bot with these settings: http://144.202.113.163:8086
-Pass: Mike
+You can see how it works here: http://149.28.23.98:8085
+Pass: bablo
+It's on Poloniex exchange, but Binance is better, I just used my free license to show you how it works
 
 Use this strategy at your own risk. No guarantees at all :)
