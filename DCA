@@ -1,3 +1,5 @@
+####### This is the HUMMER Strategy by CryptoMike: https://github.com/Mikeeetrue/CryptoMike-for-PT
+#######Read instructions in Readme how to adjust your DEFAULT_DCA_max_cost here: https://github.com/Mikeeetrue/CryptoMike-for-PT
 DEFAULT_DCA_max_cost = 0.01
 
 DEFAULT_DCA_buy_trigger = -10
@@ -13,6 +15,7 @@ DEFAULT_DCA_A_sell_strategy = GAIN
 DEFAULT_DCA_A_sell_value = 1
 DEFAULT_DCA_trailing_profit = 0.25
 
+#######Read instructions in Readme how to adjust yourDEFAULT_DCA_buy_percentage here: https://github.com/Mikeeetrue/CryptoMike-for-PT
 DEFAULT_DCA_buy_percentage = 50
 
 #----------DELETE EVERYTHING BELOW THIS LINE IF YOUR DEPO IS MORE THAN 0.6 BTC-----------
