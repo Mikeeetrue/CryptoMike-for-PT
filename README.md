@@ -14,9 +14,13 @@ This strategy works perfect with 1 BTC.
 In this strategy you only need to set up 3 paramaters:
 
 start_balance = just put here your current balance
+
 DEFAULT_initial_cost = 50% of your balance / number of pairs 
+
 Example: you have 0.6 BTC and you trade on Binance BTC market (125 pairs): 0.6 x 50% / 125 = 0.0024 is your initial cost
+
 DEFAULT_DCA_max_cost = 100% of your balance / number of pairs  x 1.25 
+
 Example: you have 0.6 BTC and you trade on Binance BTC market (125 pairs): 0.6 / 125 x 1.25 = 0.006 is your DCA max cost
 
 The average profit is in between 0.5-1% ON EVERY MARKET (even on bleeding)
