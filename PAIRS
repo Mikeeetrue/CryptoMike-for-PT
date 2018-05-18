@@ -1,7 +1,8 @@
-DEFAULT_initial_cost = 0.01
+DEFAULT_initial_cost = 0.0015
 
 DEFAULT_A_buy_strategy = RSI
 DEFAULT_A_buy_value = 5
+BNB_A_buy_value = 100
 DEFAULT_trailing_buy = 0.1
 
 DEFAULT_A_sell_strategy = GAIN
@@ -9,7 +10,6 @@ DEFAULT_A_sell_value = 1
 DEFAULT_trailing_profit = 0.25
 
 start_balance = 1
-BTC_dust = 0.00105
 enabled_pairs = ALL
 pair_min_listed_days = 5
 DEFAULT_buy_min_change_percentage = -10
