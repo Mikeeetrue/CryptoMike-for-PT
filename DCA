@@ -13,6 +13,9 @@ DEFAULT_DCA_A_sell_strategy = GAIN
 DEFAULT_DCA_A_sell_value = 1
 DEFAULT_DCA_trailing_profit = 0.25
 
+DEFAULT_DCA_buy_percentage = 50
+
+#----------DELETE EVERYTHING BELOW THIS LINE IF YOUR DEPO IS MORE THAN 0.6 BTC-----------
 DEFAULT_DCA_buy_percentage_1 = 100
 DEFAULT_DCA_buy_percentage_2 = 50
 DEFAULT_DCA_buy_percentage_3 = 33.3333333333333
