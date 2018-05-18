@@ -1,5 +1,5 @@
 ####### This is the HUMMER Strategy by CryptoMike: https://github.com/Mikeeetrue/CryptoMike-for-PT
-#######Read instructions in Readme how to adjust your DEFAULT_initial_cost
+#######Read instructions in Readme how to adjust your DEFAULT_initial_cost here: https://github.com/Mikeeetrue/CryptoMike-for-PT
 DEFAULT_initial_cost = 0.0015
 
 DEFAULT_A_buy_strategy = RSI
