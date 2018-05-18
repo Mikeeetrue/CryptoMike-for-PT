@@ -1,3 +1,5 @@
+####### This is the HUMMER Strategy by CryptoMike: https://github.com/Mikeeetrue/CryptoMike-for-PT
+#######Read instructions in Readme how to adjust your DEFAULT_initial_cost
 DEFAULT_initial_cost = 0.0015
 
 DEFAULT_A_buy_strategy = RSI
@@ -9,6 +11,7 @@ DEFAULT_A_sell_strategy = GAIN
 DEFAULT_A_sell_value = 1
 DEFAULT_trailing_profit = 0.25
 
+######Don't forget to set your start balance
 start_balance = 1
 enabled_pairs = ALL
 pair_min_listed_days = 5
