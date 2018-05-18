@@ -3,8 +3,8 @@
 DEFAULT_DCA_max_cost = 0.01
 
 DEFAULT_DCA_buy_trigger = -10
-DEFAULT_DCA_buy_min_price_increase = -3
-DEFAULT_DCA_buy_max_price_increase = 3
+DEFAULT_DCA_buy_min_change_percentage = -3
+DEFAULT_DCA_buy_max_change_percentage = 3
 DEFAULT_DCA_rebuy_timeout = 1440
 
 DEFAULT_DCA_B_buy_strategy = RSI
