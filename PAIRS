@@ -3,7 +3,7 @@
 DEFAULT_initial_cost = 0.0015
 
 DEFAULT_A_buy_strategy = RSI
-DEFAULT_A_buy_value = 50
+DEFAULT_A_buy_value = 10
 DEFAULT_trailing_buy = 0.1
 
 DEFAULT_A_sell_strategy = GAIN
