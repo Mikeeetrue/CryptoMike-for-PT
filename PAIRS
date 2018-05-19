@@ -16,6 +16,6 @@ enabled_pairs = ALL
 pair_min_listed_days = 5
 DEFAULT_buy_min_change_percentage = -10
 DEFAULT_buy_max_change_percentage = 30
-DEFAULT_DCA_enabled = -10
+DEFAULT_DCA_enabled = -5
 DEFAULT_trading_enabled = true
 market = BTC
