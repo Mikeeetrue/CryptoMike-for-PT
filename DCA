@@ -2,7 +2,7 @@
 #######Read instructions in Readme how to adjust your DEFAULT_DCA_max_cost here: https://github.com/Mikeeetrue/CryptoMike-for-PT
 DEFAULT_DCA_max_cost = 0.01
 
-DEFAULT_DCA_buy_trigger = -10
+DEFAULT_DCA_buy_trigger = -5
 DEFAULT_DCA_buy_min_change_percentage = -1
 DEFAULT_DCA_buy_max_change_percentage = 3
 DEFAULT_DCA_rebuy_timeout = 1440
