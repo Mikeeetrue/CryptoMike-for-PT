@@ -1,42 +1,20 @@
 # CryptoMike-for-PT
-CryptoMike Profit Trailer Strategy aka HUMMER strategy
+CryptoMike Profit Trailer Strategy
 
-Test these settings with your depo in Test Mode first!
+What is this? This is my version of Default PT config (which is 2.0.5 CryptoCoyns) but (the most important part):
+The market goes up and down. Every strategy ends up with some bags that prevent you from trading those coins, which got stuck in bags. 
+BUT! These coins continue go up and down and you miss a chance to ride the waves :)
+So what I invented - I send every bought coins to DCA first after it loses 1% of profit and I give the coin a chance to be DCA'ed and sold. If it was not sold or it didn't go to -1, I send it to pending Log.
+It gives me another chance to trade the same coin and make profits until it got stuck again.
+If it got stuck again - it goes to Pending Log, bot cancels previous order, merge it with the current one, recalculate the average and put another sell order.
+Having my bags in pending order rather than in DCA I benefit from this:
+1. I can catch the spike. Usually bot doesn't have enough speed to catch the spike, but a sell order has.
+2. I'm able to trade the same coin again and make profit
+3. I'm still DCAing (in my own manner - via Pending Log) coins, so average goes down
 
-This strategy allows you to trade on pumps as well as use sales data to bet on the best coins and be careful with less sucessfull ones.
-It means you have all pairs in your portfolio, you DCA it if needed until you catch a pump or just a solid growth.
-After that you buy the pair again and DCA it again before the next pump or the next solid growth.
-This strategy is still in beta. It was tested on different markets, but it seems there is no much difference between ETH and BTC
+As additional benefit with this strategy you will see more small sales which is good for your mental health and prevent from panic sell :)
+
+I highly recommend not to increase initial cost (it's now 0.0013). Yes, it takes a lot of time to load your free depo, but it gives you HUGE advantage when market will go down (it will, trust me).
+
 
 Join my Telegram group: https://t.me/joinchat/Cv9-rxAwCR-4mmmt4_zOZg 
-
-This strategy works perfect with 1 BTC.
-In this strategy you only need to set up 4 paramaters:
-
-  1. start_balance = just put here your current balance
-
-  2. DEFAULT_initial_cost = 50% of your balance / number of pairs 
-
-    Example: you have 0.6 BTC and you trade on Binance BTC market (125 pairs): 0.6 x 50% / 125 = 0.0024 is your initial cost
-
-  3. DEFAULT_DCA_max_cost = 100% of your balance / number of pairs  x 1.25 
-
-    Example: you have 0.6 BTC and you trade on Binance BTC market (125 pairs): 0.6 / 125 x 1.25 = 0.006 is your DCA max cost
-    
-  4. DEFAULT_DCA_buy_percentage = minimum order amount /  DEFAULT_initial_cost x 100
-    
-    Example: your DEFAULT_initial_cost is 0.0024, and you trade on BTC Binance market (0.0012 is the minimum order)
-    then 0.0012 / 0.0024 x 100 = 50
-    If your depo is less than 0.6 BTC and the result is more than 50, than use what you see in my DCA 
-    If your depo is more than 0.6 BTC and the result is less than 50, than delete the bottom part of my DCA which starts from:
-    #----------DELETE EVERYTHING BELOW THIS LINE IF YOUR DEPO IS MORE THAN 0.6 BTC-----------
-
-The average profit is in between 0.5-1% ON EVERY MARKET (even on bleeding)
-
-You can see how it works here: http://149.28.23.98:8085
-
-Pass: bablo
-
-It's on Poloniex exchange, but Binance is better, I just used my free license to show you how it works
-
-Use this strategy at your own risk. No guarantees at all :)
