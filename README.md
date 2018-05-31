@@ -4,6 +4,8 @@ CryptoMike Profit Trailer Strategy
 What is this? This is my version of Default PT config (which is 2.0.5 CryptoCoyns) but (the most important part):
 The market goes up and down. Every strategy ends up with some bags that prevents you from trading those coins, which got stuck in bags. 
 
+Also comparing to the default settings, I trade all pairs without filtering. My research has shown, there is no evidence to trade only some pairs (like TOP30 by coinmarketcap or with the 24h volume more than 1000 BTC).
+
 BUT! These coins continue to go up and down and you miss a chance to ride the waves :)
 
 So what I've invented - I send every bought coins to DCA first after it loses 1% of profit and I give the coin a chance to be DCA'ed and sold. If it was not sold or it didn't go to -1%, I send it to the pending Log.
