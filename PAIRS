@@ -1,63 +1,83 @@
-market = BTC
-start_balance = 1
-
-DEFAULT_pending_order_wait_time = 1440
-DEFAULT_combined_cancel_pending_trigger = 0.01
-
 DEFAULT_trading_enabled = true
-BTC_dust = 0.00105
-enabled_pairs = ALL
-pair_min_listed_days = 30
-DEFAULT_buy_min_change_percentage = -10
-DEFAULT_buy_max_change_percentage = 30
-DEFAULT_max_buy_spread = 0.5
+market = BTC
 
-DEFAULT_initial_cost = 0.0013
-orderbook_profit_calculation = true
-DEFAULT_DCA_enabled = -1
-
-DEFAULT_A_buy_strategy = EMACROSS
-DEFAULT_A_buy_value = -0.01
-DEFAULT_A_buy_value_limit = -10
-DEFAULT_B_buy_strategy = EMASPREAD
-DEFAULT_B_buy_value = -0.1
-DEFAULT_B_buy_value_limit = -10
-DEFAULT_C_buy_strategy = EMAGAIN
-DEFAULT_C_buy_value = -0.1
-DEFAULT_C_buy_value_limit = -30
-DEFAULT_D_buy_strategy = LOWBB
-DEFAULT_D_buy_value = -5
-DEFAULT_D_buy_value_limit = -35
-DEFAULT_E_buy_strategy = RSI
-DEFAULT_E_buy_value = 30
-DEFAULT_E_buy_value_limit = 0
-DEFAULT_trailing_buy = 0.01
-
-
-DEFAULT_rebuy_timeout = 0
-DEFAULT_min_orderbook_volume_percentage = 100
-DEFAULT_A_sell_strategy = GAIN
-DEFAULT_A_sell_value = 1
-DEFAULT_B_sell_strategy = RSI
-DEFAULT_B_sell_value = 65
-DEFAULT_trailing_profit = 0.25
-
-DEFAULT_take_profit_wait_time = 15
-DEFAULT_take_profit_percentage = 1
-DEFAULT_take_profit_reset_percentage_move = 0.5
-
-DEFAULT_panic_sell_enabled = false
+start_balance = 1
+keep_balance = 0.0
+keep_balance_percentage = 0
+BTC_dust = 0.000999
 
 DEFAULT_sell_only_mode_enabled = false
+enabled_pairs = ALL
+hidden_pairs = ALL
+max_trading_pairs = 0
+DEFAULT_min_buy_volume = 0
+pair_min_listed_days = 10
+
+DEFAULT_buy_min_change_percentage = 0
+DEFAULT_buy_max_change_percentage = 0
+DEFAULT_max_buy_spread = 10
+# ---------------------------------------------------------------
+#                      Initial Cost Settings
+# ---------------------------------------------------------------
+DEFAULT_initial_cost = 0.0015
+DEFAULT_initial_cost_percentage = 0
+orderbook_profit_calculation = false
+DEFAULT_DCA_enabled = true
+
+# ---------------------------------------------------------------
+#                        Buy Strategy Settings
+# ---------------------------------------------------------------
+DEFAULT_A_buy_strategy = LOWBB
+DEFAULT_A_buy_value = 30
+DEFAULT_A_buy_value_limit = -100
+
+DEFAULT_B_buy_strategy = RSI
+DEFAULT_B_buy_value = 45
+DEFAULT_B_buy_value_limit = 0
+
+DEFAULT_trailing_buy = 0.1
+
+DEFAULT_rebuy_timeout = 0
+DEFAULT_min_orderbook_volume_percentage = 101
+
+# ---------------------------------------------------------------
+#                       Sell Strategy Settings
+# ---------------------------------------------------------------
+DEFAULT_C_sell_strategy = GAIN
+DEFAULT_C_sell_value = 0.9
+DEFAULT_trailing_profit = 0.2
+
+#
+DEFAULT_max_profit = 100
+DEFAULT_take_profit_wait_time = 0
+DEFAULT_take_profit_percentage = 0
+
+# ---------------------------------------------------------------
+#              Guaranteed ways to lose money settings
+# ---------------------------------------------------------------
+DEFAULT_stop_loss_trigger = 0
+DEFAULT_stop_loss_timeout = 120
+DEFAULT_panic_sell_enabled = false
+DEFAULT_pending_order_wait_time = 0
+DEFAULT_combined_cancel_pending_trigger = 0
+
+# ---------------------------------------------------------------
+#                Sell Only Mode Protection Mechanisms
+# ---------------------------------------------------------------
+#DEFAULT_sell_only_mode_enabled
+#DEFAULT_sell_only_mode_enabled
 price_trigger_market = BTC
-price_rise_trigger = 7
-price_rise_recover_trigger = 6
-price_drop_trigger = 10
-price_drop_recover_trigger = 3
+price_rise_trigger = 3
+price_rise_recover_trigger = 2
+price_drop_trigger = 3
+price_drop_recover_trigger = 2
+
+#consecutive_buy_trigger
+#consecutive_sell_trigger
 # ---------------------------------------------------------------
 #                       BNB Refill
 # ---------------------------------------------------------------
-BNB_initial_cost = 0.002
+BNB_initial_cost = 0.0013
 BNB_A_buy_strategy = RSI
 BNB_A_buy_value = 100
 BNB_A_buy_value_limit = 0
