@@ -4,25 +4,25 @@ market = BTC
 start_balance = 1
 keep_balance = 0.0
 keep_balance_percentage = 0
-BTC_dust = 0.000999
+BTC_dust = 0.001
 
 DEFAULT_sell_only_mode_enabled = false
 enabled_pairs = ALL
 hidden_pairs = ALL
 max_trading_pairs = 0
-DEFAULT_min_buy_volume = 0
+DEFAULT_min_buy_volume = 300
 pair_min_listed_days = 10
 
-DEFAULT_buy_min_change_percentage = 0
+DEFAULT_buy_min_change_percentage = 0.0001
 DEFAULT_buy_max_change_percentage = 0
 DEFAULT_max_buy_spread = 10
 # ---------------------------------------------------------------
 #                      Initial Cost Settings
 # ---------------------------------------------------------------
-DEFAULT_initial_cost = 0.0015
+DEFAULT_initial_cost = 0.002
 DEFAULT_initial_cost_percentage = 0
 orderbook_profit_calculation = false
-DEFAULT_DCA_enabled = true
+DEFAULT_DCA_enabled = -10
 
 # ---------------------------------------------------------------
 #                        Buy Strategy Settings
@@ -32,10 +32,10 @@ DEFAULT_A_buy_value = 30
 DEFAULT_A_buy_value_limit = -100
 
 DEFAULT_B_buy_strategy = RSI
-DEFAULT_B_buy_value = 45
-DEFAULT_B_buy_value_limit = 0
+DEFAULT_B_buy_value = 50
+DEFAULT_B_buy_value_limit = 0.1
 
-DEFAULT_trailing_buy = 0.1
+DEFAULT_trailing_buy = 0
 
 DEFAULT_rebuy_timeout = 0
 DEFAULT_min_orderbook_volume_percentage = 101
@@ -43,9 +43,14 @@ DEFAULT_min_orderbook_volume_percentage = 101
 # ---------------------------------------------------------------
 #                       Sell Strategy Settings
 # ---------------------------------------------------------------
-DEFAULT_C_sell_strategy = GAIN
-DEFAULT_C_sell_value = 0.9
-DEFAULT_trailing_profit = 0.2
+DEFAULT_A_sell_strategy = GAIN
+DEFAULT_A_sell_value = 10
+DEFAULT_B_sell_strategy = RSI
+DEFAULT_B_sell_value = 50
+
+DEFAULT_trailing_profit = 1
+default_trailing_profit_type = GROW
+
 
 #
 DEFAULT_max_profit = 100
@@ -67,13 +72,10 @@ DEFAULT_combined_cancel_pending_trigger = 0
 #DEFAULT_sell_only_mode_enabled
 #DEFAULT_sell_only_mode_enabled
 price_trigger_market = BTC
-price_rise_trigger = 3
-price_rise_recover_trigger = 2
-price_drop_trigger = 3
-price_drop_recover_trigger = 2
-
-#consecutive_buy_trigger
-#consecutive_sell_trigger
+price_rise_trigger = 5
+price_rise_recover_trigger = 3
+price_drop_trigger = 5
+price_drop_recover_trigger = 3
 # ---------------------------------------------------------------
 #                       BNB Refill
 # ---------------------------------------------------------------
