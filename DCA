@@ -1,31 +1,29 @@
 DEFAULT_DCA_max_cost = 0
 DEFAULT_DCA_max_buy_times = 
-DEFAULT_DCA_buy_trigger = -10
+DEFAULT_DCA_buy_trigger = -5
 DEFAULT_DCA_buy_percentage = 1
 DEFAULT_DCA_buy_min_change_percentage = 0.0001
 DEFAULT_DCA_buy_max_change_percentage = 15
 DEFAULT_DCA_min_buy_volume = 0
 DEFAULT_DCA_min_orderbook_volume_percentage = 100
 DEFAULT_DCA_max_buy_spread = 3
-DEFAULT_DCA_rebuy_timeout = 60
+DEFAULT_DCA_rebuy_timeout = 1
 DEFAULT_DCA_pending_order_wait_time = 0
 DEFAULT_DCA_ignore_sell_only_mode = false
-#DEFAULT_DCA_stop_loss_trigger = -15
+#DEFAULT_DCA_stop_loss_trigger = -5
 
 
 DEFAULT_DCA_A_buy_strategy = LOWBB
-DEFAULT_DCA_A_buy_value = 20
+DEFAULT_DCA_A_buy_value = 30
 DEFAULT_DCA_A_buy_value_limit = -100
-
-DEFAULT_DCA_B_buy_strategy = RSI
-DEFAULT_DCA_B_buy_value = 50
-DEFAULT_DCA_B_buy_value_limit = 0
-
 DEFAULT_DCA_trailing_buy = 0
 
-DEFAULT_DCA_A_sell_strategy = GAIN
-DEFAULT_DCA_A_sell_value = 10
-DEFAULT_DCA_trailing_profit = 1
+DEFAULT_DCA_A_sell_strategy = HIGHBB
+DEFAULT_DCA_A_sell_value = 70
+DEFAULT_DCA_B_sell_strategy = GAIN
+DEFAULT_DCA_B_sell_value = 0.9
+
+DEFAULT_DCA_trailing_profit = 0.1
 DEFAULT_DCA_trailing_profit_type = GROW
 
 DCA_orderbook_profit_calculation = true
