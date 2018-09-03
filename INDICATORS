@@ -2,78 +2,79 @@ BB_std = 2
 BB_length = 100
 BB_candle_period = 86400
 
-## SMA STRATEGIES
-## Simple Moving Average Strategy
-SMA_cross_candles = 2
-#HOW MANY CANDLES SMA CROSSES
-SMA_candle_period = 300
-#DEFINE CANDLES // TIME IN SECONDS
-SMA_fast_length = 12
-#FAST SMA LINE
-SMA_slow_length = 24
-#SLOW SMA LINE
-
-## EMA STRATEGIES
-## Exponential Moving Average Strategy
-EMA_cross_candles = 2
-#HOW MANY CANDLES EMA CROSSES
-EMA_candle_period = 1800
-#DEFINE CANDLES // TIME IN SECONDS
-EMA_fast_length = 5
-#FAST EMA LINE
-EMA_slow_length = 20
-#SLOW EMA LINE
-
-## RSI AND STOCH STRATEGIES
-## RSI Relative Strength Index
-## STOCH Stochastic & STOCHRSI Stochastic Relative Strength Index Strategies
-RSI_candle_period = 900
-#DEFINE CANDLES // TIME IN SECONDS
-#FOR BOTH RSI AND STOCH !!!
-RSI_length = 20
-#HOW MANY CANDLES RSI CROSSES
+SMA_cross_candles = 12
+SMA_candle_period = 14400
+SMA_fast_length = 50
+SMA_slow_length = 200
+EMA_cross_candles = 80
+EMA_candle_period = 300
+EMA_fast_length = 8
+EMA_slow_length = 13
+RSI_candle_period = 300
+RSI_length = 2
+STOCH_candle_period = 300
 STOCH_length = 14
-#HOW MANY CANDLES STOCH CROSSES
-
-## MACD STRATEGIES
-## Moving Average Convergence Divergence Strategy
+STOCH_K = 1
+STOCH_D = 1
+STOCHRSI_candle_period = 900
+STOCHRSI_rsi_length = 14
+STOCHRSI_stoch_length = 14
+STOCHRSID_candle_period = 900
+STOCHRSID_rsi_length = 14
+STOCHRSID_stoch_length = 14
+STOCHRSID_K = 3
+STOCHRSID_D = 3
+STOCHRSIK_candle_period = 900
+STOCHRSIK_rsi_length = 14
+STOCHRSIK_stoch_length = 14
+STOCHRSIK_K = 3
+#
+STOCHRSICROSS_candle_period = 900
+STOCHRSICROSS_rsi_length = 14
+STOCHRSICROSS_stoch_length = 14
+STOCHRSICROSS_K = 3
+STOCHRSICROSS_D = 3
+STOCHRSICROSS_cross_candles = 2
+#
 MACD_candle_period = 300
-#DEFINE CANDLES // TIME IN SECONDS
-MACD_fast_Length = 12
-#FAST AVERGAE LINE
-MACD_slow_Length = 26
-#SLOW AVERAGE LINE
+MACD_fast_length = 12
+MACD_slow_length = 26
 MACD_signal = 9
-#DEFINE HOW MANY CANDLES
-
-## OBV STRATEGIES
-## On-balance Volume Strategy
+#
 OBV_candle_period = 300
-#DEFINE CANDLES // TIME IN SECONDS
-OBV_length = 5
-#DEFINE HOW MANY CANDLES
+OBV_length = 50
 OBV_signal = 1
-#VALUES MUST BE BETWEEN -1 AND +1 (AS A PERCENTAGE)
-#SIGNAL MUST BE LESS THAN LENGTH
-#   WARNING PT DOES NOT GET ACCURATE HISTORY (MAX 500 CANDLES)
-#   OF A PAIR USE WITH CAUSION!!!
-
 SOM_trigger_length = 288
-#ALWAYS USES 5 MINUTE CANDLES (300s)
-# SET THE TIME FOR PRICE_TRIGGER_MARKET TO TURN SOM ON WHEN % OF PRICE CHANGE IS TRIGGERED
-
-############## HELPFUL NOTES ###############
-#  PERIODS ARE DIFFERENT FOR EACH MARKET
-#  BINANCE   //   BITTREX   //   POLONIEX
-# 5m
-#15m
-#30m
-# 1h
-# 2h
-# 4h
-# 6h
-#12h
-# 1d
-############## END HELPFUL NOTES ############
-
-################## END INDICATORS.properties ####################
+#
+#
+GOLDENCROSS_cross_candles = 500
+GOLDENCROSS_candle_period = 300
+GOLDENCROSS_fast_length = 50
+GOLDENCROSS_slow_length = 200
+#
+# Define how many candles back to look and see if the EMA lines just crossed.
+DEATHCROSS_cross_candles = 500
+# Define the period (in seconds) used to calculate the EMA lines.
+DEATHCROSS_candle_period = 300
+# Define the EMA time frame (in candles) used to calculate the fast EMA line.
+DEATHCROSS_fast_length = 50
+# Define the EMA time frame (in candles) used to calculate the slow EMA line.
+DEATHCROSS_slow_length = 100
+#
+# Define how many candles back to look and see if the EMA lines just crossed.
+LONGTERMTREND_cross_candles = 288
+# Define the period (in seconds) used to calculate the EMA lines.
+LONGTERMTREND_candle_period = 300
+# Define the EMA time frame (in candles) used to calculate the fast EMA line.
+LONGTERMTREND_fast_length = 21
+# Define the EMA time frame (in candles) used to calculate the slow EMA line.
+LONGTERMTREND_slow_length = 55
+#
+# Define how many candles back to look and see if the EMA lines just crossed.
+SHORTTERMTREND_cross_candles = 144
+# Define the period (in seconds) used to calculate the EMA lines.
+SHORTTERMTREND_candle_period = 300
+# Define the EMA time frame (in candles) used to calculate the fast EMA line.
+SHORTTERMTREND_fast_length = 8
+# Define the EMA time frame (in candles) used to calculate the slow EMA line.
+SHORTTERMTREND_slow_length = 13
