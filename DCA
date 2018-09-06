@@ -1,45 +1,23 @@
 DEFAULT_DCA_max_cost = 0
-DEFAULT_DCA_max_buy_times = 
-DEFAULT_DCA_buy_trigger = -1
+DEFAULT_DCA_max_buy_times = 0
+DEFAULT_DCA_buy_trigger = -10
 DEFAULT_DCA_buy_percentage = 1
-DEFAULT_DCA_buy_min_change_percentage = 0.0001
-DEFAULT_DCA_buy_max_change_percentage = 15
 DEFAULT_DCA_min_buy_volume = 0
 DEFAULT_DCA_min_orderbook_volume_percentage = 100
-DEFAULT_DCA_max_buy_spread = 3
-DEFAULT_DCA_rebuy_timeout = 1
+DEFAULT_DCA_max_buy_spread = 10
+DEFAULT_DCA_rebuy_timeout = 60
 DEFAULT_DCA_pending_order_wait_time = 0
 DEFAULT_DCA_ignore_sell_only_mode = false
-#DEFAULT_DCA_stop_loss_trigger = -5
-DCA_stop_before_complete = true
+DEFAULT_DCA_stop_loss_trigger = 0
 
-DEFAULT_DCA_A_buy_strategy = LOWBB
-DEFAULT_DCA_A_buy_value = 20
-DEFAULT_DCA_A_buy_value_limit = -100
-DEFAULT_DCA_trailing_buy = 0
+DEFAULT_DCA_C_buy_strategy_label = STOCHRSICROSS_TF60
+DEFAULT_DCA_C_buy_strategy = STOCHRSICROSS
+DEFAULT_DCA_C_buy_value = 0.8
 
-DEFAULT_DCA_B_buy_strategy_label = SHORTTERMTREND
-DEFAULT_DCA_B_buy_strategy = EMACROSS
-DEFAULT_DCA_B_buy_value = 0.01
-DEFAULT_DCA_B_buy_value_limit = 20
+DEFAULT_DCA_trailing_buy = 0.1
 
-DEFAULT_DCA_C_buy_strategy = EMAGAIN
-DEFAULT_DCA_C_buy_value = 0.01
-DEFAULT_DCA_C_buy_value_limit = 20.0
-
-DEFAULT_DCA_D_buy_strategy = STOCH
-DEFAULT_DCA_D_buy_value = 100.1
-DEFAULT_DCA_D_buy_value_limit = 29.9
-
-DEFAULT_DCA_E_buy_strategy = RSI
-DEFAULT_DCA_E_buy_value = 100.0
-DEFAULT_DCA_E_buy_value_limit = 29.9
-
-DEFAULT_DCA_A_sell_strategy = HIGHBB
-DEFAULT_DCA_A_sell_value = 80
-
-DEFAULT_DCA_B_sell_strategy = GAIN
-DEFAULT_DCA_B_sell_value = 0.9
+DEFAULT_DCA_A_sell_strategy = GAIN
+DEFAULT_DCA_A_sell_value = 0.9
 
 DEFAULT_DCA_trailing_profit = 0.1
 DEFAULT_DCA_trailing_profit_type = GROW
@@ -147,3 +125,24 @@ DEFAULT_DCA_buy_percentage_97 = 1.03092783505155
 DEFAULT_DCA_buy_percentage_98 = 1.02040816326531
 DEFAULT_DCA_buy_percentage_99 = 1.01010101010101
 DEFAULT_DCA_buy_percentage_100 = 1
+
+DEFAULT_DCA_buy_trigger_1 = -1
+DEFAULT_DCA_buy_trigger_2 = -1.497487
+DEFAULT_DCA_buy_trigger_3 = -1.9933
+DEFAULT_DCA_buy_trigger_4 = -2.487438
+DEFAULT_DCA_buy_trigger_5 = -2.979901
+DEFAULT_DCA_buy_trigger_6 = -3.470689
+DEFAULT_DCA_buy_trigger_7 = -3.959803
+DEFAULT_DCA_buy_trigger_8 = -4.447242
+DEFAULT_DCA_buy_trigger_9 = -4.933007
+DEFAULT_DCA_buy_trigger_10 = -5.417099
+DEFAULT_DCA_buy_trigger_11 = -5.899517
+DEFAULT_DCA_buy_trigger_12 = -6.380262
+DEFAULT_DCA_buy_trigger_13 = -6.859335
+DEFAULT_DCA_buy_trigger_14 = -7.336736
+DEFAULT_DCA_buy_trigger_15 = -7.812465
+DEFAULT_DCA_buy_trigger_16 = -8.286523
+DEFAULT_DCA_buy_trigger_17 = -8.75891
+DEFAULT_DCA_buy_trigger_18 = -9.229627
+DEFAULT_DCA_buy_trigger_19 = -9.698674
+DEFAULT_DCA_buy_trigger_20 = -10.166052
