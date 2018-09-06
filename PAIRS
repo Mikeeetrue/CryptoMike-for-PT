@@ -5,17 +5,14 @@ start_balance = 1
 keep_balance = 0.0
 keep_balance_percentage = 0
 BTC_dust = 0.001
-DEFAULT_rebuy_timeout = 0
 
 DEFAULT_sell_only_mode_enabled = false
 enabled_pairs = ALL
 hidden_pairs = ALL
 max_trading_pairs = 0
 DEFAULT_min_buy_volume = 0
-pair_min_listed_days = 10
+pair_min_listed_days = 60
 
-DEFAULT_buy_min_change_percentage = 0.0001
-DEFAULT_buy_max_change_percentage = 0
 DEFAULT_max_buy_spread = 10
 # ---------------------------------------------------------------
 #                      Initial Cost Settings
@@ -24,47 +21,24 @@ DEFAULT_initial_cost = 0.002
 DEFAULT_initial_cost_percentage = 0
 orderbook_profit_calculation = false
 DEFAULT_DCA_enabled = -1
-
 # ---------------------------------------------------------------
 #                        Buy Strategy Settings
 # ---------------------------------------------------------------
-DEFAULT_A_buy_strategy = LOWBB
-DEFAULT_A_buy_value = 20
-
-DEFAULT_B_buy_strategy_label = SHORTTERMTREND
-DEFAULT_B_buy_strategy = EMACROSS
-DEFAULT_B_buy_value = 0.01
-DEFAULT_B_buy_value_limit = 20
-
-DEFAULT_C_buy_strategy = EMAGAIN
-DEFAULT_C_buy_value = 0.01
-DEFAULT_C_buy_value_limit = 20.0
-
-DEFAULT_D_buy_strategy = STOCH
-DEFAULT_D_buy_value = 100.1
-DEFAULT_D_buy_value_limit = 29.9
-
-DEFAULT_E_buy_strategy = RSI
-DEFAULT_E_buy_value = 100.0
-DEFAULT_E_buy_value_limit = 29.9
-
-DEFAULT_trailing_buy = 0
-
+DEFAULT_C_buy_strategy_label = STOCHRSICROSS_TF60
+DEFAULT_C_buy_strategy = STOCHRSICROSS
+DEFAULT_C_buy_value = 0.8
+DEFAULT_trailing_buy = 0.1
 DEFAULT_min_orderbook_volume_percentage = 101
 
 # ---------------------------------------------------------------
 #                       Sell Strategy Settings
 # ---------------------------------------------------------------
-DEFAULT_B_sell_strategy = GAIN
-DEFAULT_B_sell_value = 1
-DEFAULT_A_sell_strategy = LOWBB
-DEFAULT_A_sell_value = 100
-DEFAULT_A_sell_value_limit = 20
+DEFAULT_A_sell_strategy = GAIN
+DEFAULT_A_sell_value = 0.9
 
 DEFAULT_trailing_profit = 0.1
-default_trailing_profit_type = GROW
+DEFAULT_trailing_profit_type = GROW
 
-#
 DEFAULT_max_profit = 100
 DEFAULT_take_profit_wait_time = 0
 DEFAULT_take_profit_percentage = 0
@@ -81,13 +55,11 @@ DEFAULT_combined_cancel_pending_trigger = 0
 # ---------------------------------------------------------------
 #                Sell Only Mode Protection Mechanisms
 # ---------------------------------------------------------------
-#DEFAULT_sell_only_mode_enabled
-#DEFAULT_sell_only_mode_enabled
-price_trigger_market = BTC
-price_rise_trigger = 5
-price_rise_recover_trigger = 3
-price_drop_trigger = 5
-price_drop_recover_trigger = 3
+#price_trigger_market = BTC
+#price_rise_trigger = 5
+#price_rise_recover_trigger = 3
+#price_drop_trigger = 5
+#price_drop_recover_trigger = 3
 # ---------------------------------------------------------------
 #                       BNB Refill
 # ---------------------------------------------------------------
@@ -105,4 +77,3 @@ BNB_A_sell_value = 100
 BNB_DCA_enabled = false
 BNB_pending_order_wait_time = 0
 BNB_take_profit_percentage = 100
-BNB_buy_min_change_percentage = 0
