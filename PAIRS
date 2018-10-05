@@ -26,7 +26,7 @@ DEFAULT_A_sell_strategy = RSI
 DEFAULT_A_sell_value = 51
 
 DEFAULT_B_sell_strategy = GAIN
-DEFAULT_B_sell_value = 7
+DEFAULT_B_sell_value = 10
 #
 DEFAULT_trailing_profit_type = SHRINK
 DEFAULT_trailing_profit = 10
