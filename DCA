@@ -2,45 +2,48 @@ DEFAULT_DCA_buy_percentage = 100
 DEFAULT_DCA_buy_min_change_percentage = -5
 DEFAULT_DCA_buy_max_change_percentage = 15
 DEFAULT_DCA_min_buy_volume = 0
-DEFAULT_DCA_min_orderbook_volume_percentage = 100
+DEFAULT_DCA_min_orderbook_volume_percentage = 30
 DEFAULT_DCA_max_buy_spread = 3
-DEFAULT_DCA_rebuy_timeout = 1440
+DEFAULT_DCA_rebuy_timeout = 10000
 DEFAULT_DCA_sell_wall_orderbook_depth = 30
 DEFAULT_DCA_sell_wall_diff_percentage = 500
 
 DEFAULT_DCA_A_buy_strategy = RSI
 DEFAULT_DCA_A_buy_value = 49
 
-DEFAULT_DCA_trailing_buy = 0.1
+DEFAULT_DCA_trailing_buy = 1
 
 DEFAULT_DCA_A_sell_strategy = GAIN
-DEFAULT_DCA_A_sell_value_1 = 15
-DEFAULT_DCA_A_sell_value_2 = 20
-DEFAULT_DCA_A_sell_value_3 = 25
-DEFAULT_DCA_A_sell_value_4 = 30
-DEFAULT_DCA_A_sell_value_5 = 35
-DEFAULT_DCA_A_sell_value_6 = 45
-DEFAULT_DCA_A_sell_value_7 = 50
-DEFAULT_DCA_A_sell_value_8 = 55
-DEFAULT_DCA_A_sell_value_9 = 60
-DEFAULT_DCA_A_sell_value_10 = 65
-DEFAULT_DCA_A_sell_value_11 = 70
-DEFAULT_DCA_A_sell_value = 100
+DEFAULT_DCA_A_sell_value_1 = 7
+DEFAULT_DCA_A_sell_value_2 = 6
+DEFAULT_DCA_A_sell_value_3 = 5
+DEFAULT_DCA_A_sell_value_4 = 4
+DEFAULT_DCA_A_sell_value_5 = 3
+DEFAULT_DCA_A_sell_value_6 = 2.5
+DEFAULT_DCA_A_sell_value_7 = 2
+DEFAULT_DCA_A_sell_value_8 = 1.5
+DEFAULT_DCA_A_sell_value_9 = 1
+DEFAULT_DCA_A_sell_value_10 = 0.5
+DEFAULT_DCA_A_sell_value = 0.1
 
-DEFAULT_DCA_buy_trigger_1 = -20
-DEFAULT_DCA_buy_trigger_2 = -20
-DEFAULT_DCA_buy_trigger_3 = -20
-DEFAULT_DCA_buy_trigger_4 = -20
-DEFAULT_DCA_buy_trigger_5 = -20
-DEFAULT_DCA_buy_trigger_6 = -30
-DEFAULT_DCA_buy_trigger_7 = -30
-DEFAULT_DCA_buy_trigger_8 = -40
-DEFAULT_DCA_buy_trigger_9 = -40
-DEFAULT_DCA_buy_trigger_10 = -45
-DEFAULT_DCA_buy_trigger = -50
+DEFAULT_DCA_trailing_profit = 10
+DEFAULT_DCA_trailing_profit_type = SHRINK
 
-DEFAULT_DCA_trailing_profit = 0.5
-DEFAULT_DCA_trailing_profit_type = GROW
+# Tesla DCA triggers
+DEFAULT_DCA_buy_trigger_1 = -1
+DEFAULT_DCA_buy_trigger_2 = -2
+DEFAULT_DCA_buy_trigger_3 = -4
+DEFAULT_DCA_buy_trigger_4 = -5
+DEFAULT_DCA_buy_trigger_5 = -7
+DEFAULT_DCA_buy_trigger_6 = -8
+DEFAULT_DCA_buy_trigger_7 = -3
+DEFAULT_DCA_buy_trigger_8 = -6
+DEFAULT_DCA_buy_trigger_9 = -9
+DEFAULT_DCA_buy_trigger_10 = -12
+
+DEFAULT_DCA_take_profit_percentage = 5
+DEFAULT_DCA_take_profit_reset_percentage_move = 0.5
+DEFAULT_DCA_take_profit_wait_time = 120
 
 DCA_orderbook_profit_calculation = true
 DEFAULT_DCA_max_profit = 250
