@@ -9,7 +9,7 @@ DEFAULT_rebuy_timeout = 1000
 DEFAULT_buy_min_change_percentage = -5
 DEFAULT_buy_max_change_percentage = 15
 
-start_balance = 2500
+start_balance = 100
 
 DEFAULT_initial_cost = 1.1
 BNB_dust = 0.8
