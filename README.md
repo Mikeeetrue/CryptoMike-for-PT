@@ -1,4 +1,4 @@
 # CryptoMike-for-PT
 CryptoMike Profit Trailer Strategy
 
-It now works on daily candles based on 100 days cycles.
+It now works on hourly candles on 24 hours
