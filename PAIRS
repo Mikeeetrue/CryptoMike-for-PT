@@ -4,8 +4,10 @@ pair_min_listed_days = 30
 DEFAULT_rebuy_timeout = 0
 DEFAULT_min_orderbook_volume_percentage = 50
 
+#60 is the minimum
 start_balance = 1000
 
+#For initial cost divide your balance by 50, but not less than 1.2 BNB
 DEFAULT_initial_cost = 20
 BNB_dust = 0.8
 DEFAULT_DCA_enabled = false
